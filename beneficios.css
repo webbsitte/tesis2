@@ -1,0 +1,132 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+    transform: scale(1.1); 
+}
+
+/* Estilos del main */
+main {
+    padding: 40px 10%;
+}
+
+/* Sección de beneficios */
+#benefits {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+#benefits h2 {
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#benefits ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding-left: 1.5rem;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#benefits ul li::before {
+    content: "✓";
+    color: #007BFF;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 2px;
+    margin-left: -20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #040404;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Estilos de la sección de conclusión */
+
+
+.benefits:hover {
+    transform: scale(1.02); /* Efecto de aumento al pasar el mouse */
+}
