@@ -65,7 +65,7 @@ nav ul li a:hover {
 
 /* Estilos de las secciones */
 section {
-    max-width: 1200px; /* Controlar el ancho máximo para evitar que el texto se extienda demasiado */
+    max-width: 1300px; /* Controlar el ancho máximo para evitar que el texto se extienda demasiado */
     margin: 20px auto; /* Centrar las secciones */
     padding: 40px 5%; /* Añadir relleno a los lados */
     background-color: #fff;
