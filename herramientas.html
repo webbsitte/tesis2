@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas - Evaluación de Vulnerabilidades</title>
+    <link rel="stylesheet" href="estilos/herramientas.css">
+</head>
+<body id="herramientas-page">
+    <header class="header">
+        <div class="container">
+            <h1>Herramientas Utilizadas en la Evaluación de Vulnerabilidades</h1>
+            <p>Conoce las herramientas de código abierto que se utilizan para realizar un análisis de vulnerabilidades efectivo.</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="indice.html">Inicio</a></li>
+            <li><a href="herramientas.html">Herramientas</a></li>
+            <li><a href="beneficios.html">Beneficios</a></li>
+            <li><a href="conclusion.html">Conclusión</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <!-- Sección de Herramientas -->
+        <section class="section herramientas">
+            <h2 class="section-title">Principales Herramientas Utilizadas</h2>
+
+            <!-- Herramienta Metasploit Framework -->
+            <div class="tool">
+                <h3 class="tool-title">Metasploit Framework</h3>
+                <p><strong>Descripción:</strong>Metasploit es una de las herramientas más avanzadas para pruebas de penetración, utilizada por analistas de seguridad y pentesters para identificar y explotar vulnerabilidades. Ofrece un entorno flexible para simular ataques en un entorno controlado y seguro.</p>
+                <p><strong>Funcionalidad:</strong></p>
+                <li>Gestión de exploits: permite cargar y ejecutar ataques específicos contra vulnerabilidades conocidas.</li>
+                <li>Soporte para módulos auxiliares: realiza tareas como escaneo de puertos o evasión de seguridad.</li>
+                <li>Integración con herramientas como Nmap y Nessus para optimizar los análisis.</li>
+                <li>Automatización de pruebas: mediante scripts personalizados para simulación de ataques.</li>                
+                <p><strong>Usos Comunes:</strong></p>
+                    <li>Detección de vulnerabilidades en sistemas operativos y aplicaciones.</li>
+                    <li>Evaluación de configuraciones inseguras en redes y dispositivos.</li>
+                    <li>Gestión de riesgos con la clasificación de vulnerabilidades detectadas.</li>
+            </div>
+
+            <!-- Herramienta OpenVAS -->
+            <div class="tool">
+                <h3 class="tool-title">OpenVAS</h3>
+                <p><strong>Descripción:</strong> OpenVAS (Open Vulnerability Assessment System) es una plataforma de escaneo de vulnerabilidades que permite identificar, evaluar y gestionar vulnerabilidades en los sistemas informáticos. OpenVAS es de código abierto y se utiliza para realizar análisis de seguridad detallados en redes, servidores y dispositivos, brindando información sobre las posibles fallas en la infraestructura de TI.</p>
+                <p><strong>Funcionalidad:</strong></p>
+                    <li>Identificación de vulnerabilidades conocidas mediante una base de datos actualizada regularmente.</li>
+                    <li>Generación de informes que clasifican y priorizan riesgos para facilitar la gestión de soluciones.</li>
+                    <li>Análisis continuo: permite programar escaneos periódicos para un monitoreo constante.</li>
+                    <li>Compatibilidad con protocolos como SSH y SNMP para análisis en profundidad.</li>
+                <p><strong>Usos Comunes:</strong></p>
+                    <li>Auditorías de seguridad en redes empresariales.</li>
+                    <li>Análisis de vulnerabilidades en servidores y aplicaciones web.</li>
+                    <li>Gestión de riesgos en infraestructuras críticas.</li>
+            </div>
+
+            <!-- Herramienta Nmap -->
+            <div class="tool">
+                <h3 class="tool-title">Nmap</h3>
+                <p><strong>Descripción:</strong>Nmap es una herramienta ampliamente utilizada para el descubrimiento de redes y auditorías de seguridad. Su capacidad para escanear rápidamente grandes redes lo convierte en una opción ideal para identificar puntos de entrada vulnerables.</p>
+                <p><strong>Funcionalidad:</strong></p>
+                    <li>Escaneo de puertos y servicios para determinar qué aplicaciones están activas.</li>
+                    <li>Identificación de sistemas operativos y versiones de software en dispositivos conectados.</li>
+                    <li>Generación de mapas de red interactivos para comprender la infraestructura de TI.</li>
+                    <li>Soporte para scripts (NSE) que permiten realizar pruebas de seguridad más avanzadas.</li>
+                <p><strong>Usos Comunes:</strong></p>
+                    <li>Inventario de dispositivos en redes empresariales.</li>
+                    <li>Identificación de puertos abiertos y servicios vulnerables.</li>
+                    <li>Diagnóstico de problemas de conectividad y configuración.</li>
+            </div>
+
+            <!-- Herramienta Wireshark -->
+            <div class="tool">
+                <h3 class="tool-title">Wireshark</h3>
+                <p><strong>Descripción:</strong>Wireshark es una herramienta de análisis de tráfico de red que permite capturar y visualizar paquetes de datos en tiempo real. Es una herramienta indispensable para la resolución de problemas y la detección de anomalías en la red.</p>
+                <p><strong>Funcionalidad:</strong></p>
+                    <li>Captura y análisa paquetes de datos para identificar patrones inusuales.</li>
+                    <li>Reconstrucción de sesiones de comunicación para estudiar posibles ataques.</li>
+                    <li>Soporte para cientos de protocolos, incluidos TCP/IP, HTTP, FTP, y más.</li>
+                    <li>Análisa en tiempo real para detectar posibles intrusiones o fugas de datos.</li>
+                <p><strong>Usos Comunes:</strong></p>
+                    <li>Detección de ataques como sniffing o MITM</li>
+                    <li>Análisis de rendimiento de red y diagnóstico de problemas.</li>
+                    <li>Inspección de tráfico en aplicaciones y servicios./li>
+            </div>
+
+            <!-- Herramienta Nikto -->
+            <div class="tool">
+                <h3 class="tool-title">Nikto</h3>
+                <p><strong>Descripción:</strong>Nikto es un escáner web especializado en identificar vulnerabilidades en servidores HTTP. Es una herramienta ligera pero efectiva para evaluar la seguridad de servidores y aplicaciones web.</p>
+                <p><strong>Funcionalidad:</strong></p>
+                    <li>Detección de configuraciones inseguras, scripts maliciosos y versiones vulnerables de software.</li>
+                    <li>Soporte para múltiples protocolos (HTTP, HTTPS, HTTPd) y extensiones de servidor.</li>
+                    <li>Escaneos automatizados con resultados rápidos y detallados.</li>
+                <p><strong>Usos Comunes:</strong></p>
+                    <li>Análisis inicial en auditorías de servidores web.</li>
+                    <li>Detección de configuraciones predeterminadas en servidores mal protegidos.</li>
+                    <li>Identificación de scripts potencialmente peligrosos o desactualizados.</li>
+            </div>
+        </section>
+    
+        <main class="main">
+
+        <!-- Sección de Herramientas -->
+        <section class="section herramienta">
+                <h2 class="section-title">Consejos para el Uso Efectivo de las Herramientas</h2>
+    
+
+        <!-- Consejos -->
+
+            <div class="tool">
+                <li><strong>Entender el Alcance del Análisis:</strong> Antes de comenzar cualquier evaluación de vulnerabilidades, define claramente el alcance de las pruebas. Asegúrate de conocer qué redes, sistemas, aplicaciones y dispositivos estarán involucrados, y ajusta la herramienta para realizar un escaneo adecuado a ese alcance.</li>
+                <li><strong>Priorizar Vulnerabilidades según Riesgo:</strong> Las herramientas como OpenVAS o Nessus generan informes con una lista de vulnerabilidades encontradas, pero no todas requieren la misma urgencia. Prioriza las vulnerabilidades según su impacto potencial (como CVSS) y el riesgo que representan para la infraestructura.</li>
+                <li><strong>Mantener las Herramientas Actualizadas:</strong> Las herramientas de escaneo de vulnerabilidades, como Metasploit y OpenVAS, dependen de bases de datos de vulnerabilidades que se actualizan regularmente. Asegúrate de mantener las herramientas y sus bases de datos al día.</li>
+                <li><strong>Realizar Escaneos Regulares:</strong> Establece un calendario de escaneos regulares, ya sea mensual, trimestral o según lo permita la infraestructura. Esto te ayudará a detectar nuevas vulnerabilidades a medida que surgen, especialmente en entornos con cambios frecuentes.</li>
+                <li><strong>Utilizar Herramientas en Conjunto:</strong> No confíes en una sola herramienta. Cada una tiene ventajas y limitaciones. Combina herramientas como Nmap (para descubrimiento de redes) con OpenVAS o Metasploit (para análisis de vulnerabilidades) para obtener una imagen más completa de los riesgos de seguridad.</li>
+                <li><strong>Automatizar las Tareas Comunes:</strong> Aprovecha las capacidades de automatización de algunas herramientas. Metasploit, por ejemplo, permite automatizar la explotación de vulnerabilidades comunes, mientras que Nmap ofrece opciones para realizar escaneos programados.</li>
+          
+        </section>
+    </main>
+</body>
+</html>
